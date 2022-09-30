@@ -2203,6 +2203,10 @@ input, select, textarea {
 				}
 
 /* Main */
+	.blur {
+		background-image: url("../../images/banner.jpg");
+		filter: blur(5px);
+	}
 
 	#main {
 		margin-left: 375px;
@@ -2248,8 +2252,6 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
-				filter: blur(5px);
 			}
 
 			#main > section.two {
